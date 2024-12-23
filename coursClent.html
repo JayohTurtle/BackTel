@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Telephone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="recap-cotation-client">
+            <div class="container-cotation">
+                <div class="mp ml-10">
+                    <p>Cotation</p>
+                    <div id="cotation-client" class="cotation-client"></div>
+                </div>
+                <div>
+                    <img src="images/refreshmentarrows_121517.png" alt="cercle de flêches" class="icon">
+                </div>
+            </div>
+            <div class="mp ml-10">
+                <p>Client</p>
+                <div id="client-client" class="client-client"></div>
+            </div>
+        </div>
+        <div class="demande mt-25 ml-10">
+            <div class="dev-montant">
+                <div class="mp ml-10">
+                    <p>Achat</p>
+                    <div id="dev-achat" class="devises"></div>
+                </div>
+                <div id="montant-achat" class="montant ml-10"></div>
+            </div>
+            <div class="dev-montant">
+                <div class="mp ml-10">
+                    <p>Vente</p>
+                    <div id="dev-vente" class="devises"></div>
+                </div>
+                <div id="montant-vente" class="montant ml-10"></div>
+            </div>
+        </div>
+        <div class="marge-cours">
+            <button id="btn-marge" type="button" class="btn-marge mt-50 ml-10">Marge 0.5%</button>
+            <div class="mt-25 ml-10">
+                <div>
+                    <p>Cours bank</p>
+                    <div id="cours-bank" class="cours"></div>
+                </div>
+                <div>
+                    <p>Cours client</p>
+                    <div id="cours-client" class="cours"></div>
+                </div>
+            </div>
+            <div class="mt-25 mp-gain">
+                <div>
+                    <p>pnb client</p>
+                    <div id="gain-client" class="cours"></div>
+                </div>
+                <div>
+                    <p>pnb Imp</p>
+                    <div id="gain-imp" class="cours"></div>
+                </div>
+            </div>
+            <div class="inf-envoi mt-25">
+                <div class="INF">
+                    <p>INF</p>
+                    <div id="INF" class="cours"></div>
+                </div>
+                <div>
+                    <button type="submit" id="envoi" class="btn btn-envoi">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
