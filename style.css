@@ -45,7 +45,7 @@ body{
 }
 .dev-montant{
     display: flex;
-    align-items: last baseline;
+    align-items: flex-end;
 }
 .mp{
     display: flex;
@@ -53,18 +53,24 @@ body{
     align-items: flex-start;/*on aligne le label et le champs sur la gauche du conteneur*/
 }
 .devises{
+    display: flex;
     width: 95px;
     height: 50px;
     border: 2px solid;
     font-size: 24px;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
 .montant{
+    display: flex;
     width: 190px;
     height: 40px;
     border: 2px solid;
     font-size: 20px;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
 .client-chat{
     width: 100%;
@@ -114,9 +120,14 @@ body{
     margin-left: 10px;
 }
 .cotation-client{
+    display: flex;
     width: 155px;
     height: 50px;
     border: 2px solid;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
 .client-client{
     width: 300px;
@@ -141,9 +152,14 @@ body{
     margin-left: 20px;
 }
 .cours{
+    display: flex;
     width: 125px;
     height: 50px;
     border: 2px solid;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
 .INF{
     margin-left: 20px;
